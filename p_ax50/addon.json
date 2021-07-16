@@ -1,0 +1,27 @@
+{
+	"name": "AX-50",
+	"authors":
+	[
+		{
+			"name": "AlbanyKnight", 
+			"social": "https://www.youtube.com/c/AlbanyKnight", 
+			"role": "Compile."
+		},
+		{
+			"name": "TheZombieDon", 
+			"social": "https://www.youtube.com/c/TheZombieDon", 
+			"role": "Material and texture work."
+		},
+		{
+			"name": "Ma_rv", 
+			"social": "https://www.youtube.com/channel/UCBg4oq76gOym87xd6FnWUnA", 
+			"role": "Animations."
+		},
+		{
+			"name": "Stalol", 
+			"social": "https://steamcommunity.com/id/762x25mmT/", 
+			"role": "Sounds help."
+		}
+	],
+	"replacement": "AWP"
+}

@@ -1,0 +1,200 @@
+// --------------------------
+// AX-50
+// --------------------------
+
+
+"Weapon_AX-50.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB"
+	"rndwave"
+	{
+		"wave"	"`)weapons/ax50/ax-50_1.wav"
+		"wave"	"`)weapons/ax50/ax-50_2.wav"
+		"wave"	"`)weapons/ax50/ax-50_3.wav"
+		"wave"	"`)weapons/ax50/ax-50_4.wav"
+		"wave"	"`)weapons/ax50/ax-50_5.wav"
+		"wave"	"`)weapons/ax50/ax-50_6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_distance_weapon_start"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_AX-50.SingleDistant"
+			}
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "Weapons1"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+		}
+	}
+	
+}
+"Weapon_AX-50.SingleDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "0.35"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_110dB"
+	"rndwave"
+	{
+		"wave"	"`)weapons/ax50/ax-50_F1.wav"
+		"wave"	"`)weapons/ax50/ax-50_F2.wav"
+		"wave"	"`)weapons/ax50/ax-50_F3.wav"
+		"wave"	"`)weapons/ax50/ax-50_F4.wav"
+	}
+	"soundentry_version" "2"
+
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+
+		}
+	}
+	
+}
+
+"Weapon_AX-50.Magin1"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/ax50/wpn_iw8_ax50_mag_in1.wav" 
+}
+
+"Weapon_AX-50.Magin2"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/ax50/wpn_iw8_ax50_mag_in2.wav" 
+}
+
+"Weapon_AX-50.Magout"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/ax50/wpn_iw8_ax50_mag_out.wav" 
+}
+
+"Weapon_AX-50.Boltback"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+		"wave"	"`)weapons/ax50/wpn_iw8_ax50_bolt_back1.wav"
+		"wave"	"`)weapons/ax50/wpn_iw8_ax50_bolt_back2.wav"
+		"wave"	"`)weapons/ax50/wpn_iw8_ax50_bolt_back3.wav"
+		"wave"	"`)weapons/ax50/wpn_iw8_ax50_bolt_back4.wav"
+		"wave"	"`)weapons/ax50/wpn_iw8_ax50_bolt_back5.wav"
+		"wave"	"`)weapons/ax50/wpn_iw8_ax50_bolt_back6.wav"
+		"wave"	"`)weapons/ax50/wpn_iw8_ax50_bolt_back7.wav"
+	}
+}
+"Weapon_AX-50.Inspect_Boltback"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"	"`)weapons/ax50/inspect_boltcheck_pull_1.wav"
+}
+
+"Weapon_AX-50.Boltforward"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/ax50/wpn_iw8_ax50_bolt_forward.wav" 
+}
+
+"Weapon_AX-50.Reload_boltforward"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/ax50/wpn_iw8_ax50_empty_bolt_forward.wav" 
+}
+
+"Weapon_AX-50.Draw_boltforward"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/ax50/wpn_iw8_ax50_first_raise_bolt_forward.wav" 
+}
+
+"Weapon_AX-50.Weaponmove1"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/ax50/wpn_iw8_ax50_inspect_part1.wav" 
+}
+
+"Weapon_AX-50.Weaponmove2"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/ax50/wpn_iw8_ax50_inspect_part2.wav" 
+}
+
+"Weapon_AX-50.Inspect3"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/ax50/wpn_iw8_ax50_inspect_part3.wav" 
+}
+
+"Weapon_AX-50.Draw"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/ax50/wpn_iw8_ax50_first_raise_foley.wav" 
+}

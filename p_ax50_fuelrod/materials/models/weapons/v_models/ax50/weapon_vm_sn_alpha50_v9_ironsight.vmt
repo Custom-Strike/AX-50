@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 			"models\weapons\v_models\ax50\ironsight\weapon_vm_sn_alpha50_v9_ironsight_d"
+	"$bumpmap" 				"models\weapons\v_models\ax50\ironsight\weapon_vm_sn_alpha50_v9_ironsight_n"
+	"$PhongExponentTexture" "models\weapons\v_models\ax50\ironsight\weapon_vm_sn_alpha50_v9_ironsight_e"
+	"$color2"				"[.2 .2 .2]"
+	"$blendtintbybasealpha" "1"
+	"$basemapalphaenvmapmask" 1
+	"$phong" "1"
+	"$phongboost"	"2.85"
+	"$phongexponent"	"128"
+	"$phongalbedotint"	"1"
+	"$phongalbedoboost"	"75"
+	"$phongfresnelranges"	"[0.5 3 5]"
+	"$envmap" "env_cubemap"
+	"$envmaptint"	"[0.45 0.45 0.45]"
+	"$envmapfresnel"	"1.4"
+	"$rimlight" "1"
+	"$rimlightboost" "2.5"
+	"$rimmask" "1"
+	"$halflambert" "1"
+	"$ambientocclusion" "1"
+	"$nocull" "0"	
+}
+
+//VMTs are created by TheZombieDon
+//Textures ported by Ma_rv/AlbanyKnight/TheZombieDon, further manipulated and finalized by TheZombieDon
+//Some textures are custom made by TheZombieDon
+//Do not manipulate or redistribute without explicit permission from each indivual author

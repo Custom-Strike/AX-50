@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 			"models\weapons\v_models\ax50\flashhider04\attachment_vm_flashhider04_d"
+	"$bumpmap" 				"models\weapons\v_models\ax50\flashhider04\attachment_vm_flashhider04_n"
+	"$PhongExponentTexture" "models\weapons\v_models\ax50\flashhider04\attachment_vm_flashhider04_e"
+	"$color2"				"[.4 .4 .4]"
+	"$blendtintbybasealpha" "0"
+	"$basemapalphaenvmapmask" "1"
+	"$phong" "1"
+	"$phongboost"	"1"
+	"$phongexponent"	"100"
+	"$phongalbedotint"	"1"
+	"$phongalbedoboost"	"100"
+	"$phongfresnelranges"	"[0.5 3 5]"
+	"$envmap" "env_cubemap"
+	"$envmaptint"	"[0.55 0.55 0.55]"
+	"$envmapfresnel"	"1.4"
+	"$halflambert" "1"
+	"$ambientocclusion" "1"
+	"$nocull" "0"	
+	
+}
+
+//VMTs are created by TheZombieDon
+//Textures ported by TheZombieDon, further manipulated and finalized by TheZombieDon
+//Do not manipulate or redistribute without explicit permission from each individual author

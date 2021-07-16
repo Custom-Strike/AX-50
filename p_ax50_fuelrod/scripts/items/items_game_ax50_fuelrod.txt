@@ -1,0 +1,182 @@
+"items_game"
+{
+	"prefabs"
+	{
+		"weapon_awp_prefab"
+		{
+			"prefab"		"sniper_rifle"
+			"item_class"		"weapon_awp"
+			"item_name"		"AX-50 | Fuelrod"
+			"item_description"		"Hard hitting, bolt action sniper rifle with .50 BMG ammunition. It's tungsten sabot tipped bullets are fast and powerful, but require precise shots over long distances."
+			"item_rarity"		"uncommon"
+			"image_inventory"		"econ/weapons/base_weapons/weapon_ax50_v9"
+			"model_player"		"models/weapons/v_ax50.mdl"
+			"model_world"		"models/weapons/w_ax50.mdl"
+			"model_dropped"		"models/weapons/w_ax50_dropped.mdl"
+			"zoom_in_sound"		"Weapon_AWP.Zoom"
+			"zoom_out_sound"		"Weapon_AWP.Zoom"
+			"stickers"
+			{
+				"0"
+				{
+					"viewmodel_material"		"materials/models/weapons/customization/snip_awp/snip_awp_decal_a.vmt"
+					"viewmodel_geometry"		"models/weapons/stickers/v_models/snip_awp_decal_a.mdl"
+					"worldmodel_decal_pos"		"6.59995 -3.74073 -8.22526"
+				}
+				"1"
+				{
+					"viewmodel_material"		"materials/models/weapons/customization/snip_awp/snip_awp_decal_b.vmt"
+					"viewmodel_geometry"		"models/weapons/stickers/v_models/snip_awp_decal_b.mdl"
+					"worldmodel_decal_pos"		"6.59995 -2.05448 0.438974"
+				}
+				"2"
+				{
+					"viewmodel_material"		"materials/models/weapons/customization/snip_awp/snip_awp_decal_c.vmt"
+					"viewmodel_geometry"		"models/weapons/stickers/v_models/snip_awp_decal_c.mdl"
+					"worldmodel_decal_pos"		"6.59995 -2.45321 5.47063"
+				}
+				"3"
+				{
+					"viewmodel_material"		"materials/models/weapons/customization/snip_awp/snip_awp_decal_d.vmt"
+					"viewmodel_geometry"		"models/weapons/stickers/v_models/snip_awp_decal_d.mdl"
+					"worldmodel_decal_pos"		"6.59995 1.43277 9.50265"
+				}
+			}
+			"used_by_classes"
+			{
+				"terrorists"		"1"
+				"counter-terrorists"		"1"
+			}
+			"inventory_image_data"
+			{
+				"camera_angles"		"-5.0 -140.0 0.0"
+				"camera_offset"		"25.0 0.6 -3.5"
+				"spot_light_key"
+				{
+					"position"		"-90 80 220"
+					"color"		"2 2.1 2.3"
+					"lookat"		"0.0 0.0 0.0"
+					"inner_cone"		"0.500000"
+					"outer_cone"		"1.000000"
+				}
+				"spot_light_rim"
+				{
+					"position"		"0 -130 -80"
+					"color"		"3 5 5"
+					"lookat"		"0.0 0.0 0.0"
+					"inner_cone"		"0.040000"
+					"outer_cone"		"0.500000"
+				}
+				"point_light_accent"
+				{
+					"position"		"0 20 25"
+					"color"		"3 3 3"
+				}
+			}
+			"attributes"
+			{
+				"aimsight lens mask"		"models/weapons/shells/50bmg.mdl"
+				"magazine model"		"models/weapons/w_ax50_mag.mdl"
+				"unzoom after shot"		"1"
+				"primary reserve ammo max"		"25"
+				"inaccuracy jump initial"		"160.860001"
+				"inaccuracy jump"		"120.830002"
+				"inaccuracy jump alt"		"120.830002"
+				"heat per shot"		"1.500000"
+				"addon scale"		"0.900000"
+				"max player speed"		"220"
+				"max player speed alt"		"150"
+				"in game price"		"4250"
+				"kill award"		"200"
+				"armor ratio"		"1.950000"
+				"crosshair min distance"		"8"
+				"zoom levels"		"2"
+				"zoom time 0"		"0.050000"
+				"zoom fov 1"		"40"
+				"zoom time 1"		"0.050000"
+				"zoom fov 2"		"10"
+				"zoom time 2"		"0.050000"
+				"hide view model zoomed"		"1"
+				"penetration"		"2.500000"
+				"damage"		"85"
+				"range"		"8192"
+				"range modifier"		"0.990000"
+				"cycletime"		"1.5"
+				"time to idle"		"2"
+				"idle interval"		"60"
+				"flinch velocity modifier large"		"0.350000"
+				"flinch velocity modifier small"		"0.400000"
+				"inaccuracy reload"		"0"
+				"spread"		"0.200000"
+				"inaccuracy crouch"		"60.599998"
+				"inaccuracy stand"		"80.800003"
+				"inaccuracy land"		"0.307000"
+				"inaccuracy ladder"		"136.500000"
+				"inaccuracy fire"		"53.849998"
+				"inaccuracy move"		"176.479996"
+				"spread alt"		"0.200000"
+				"inaccuracy crouch alt"		"1.250000"
+				"inaccuracy stand alt"		"1.750000"
+				"inaccuracy land alt"		"0.800000"
+				"inaccuracy ladder alt"		"125.500000"
+				"inaccuracy fire alt"		"45.849998"
+				"inaccuracy move alt"		"135.479996"
+				"recovery time crouch"		"0.246710"
+				"recovery time stand"		"0.345390"
+				"recoil angle"		"0"
+				"recoil angle variance"		"20"
+				"recoil magnitude"		"78"
+				"recoil magnitude variance"		"15"
+				"recoil seed"		"3000"
+				"primary clip size"		"5"
+				"weapon weight"		"30"
+				"rumble effect"		"2"
+				"recoil angle alt"		"0"
+				"recoil angle variance alt"		"20"
+				"recoil magnitude alt"		"25"
+				"recoil magnitude variance alt"		"2"
+				"recovery time crouch final"		"0.246710"
+				"recovery time stand final"		"0.345390"
+			}
+			"paint_data"
+			{
+				"PaintableMaterial0"
+				{
+					"Name"		"snip_awp"
+					"OrigMat"		"awp"
+					"ViewmodelDim"		"2048"
+					"WorldDim"		"512"
+					"BaseTextureOverride"		"1"
+					"WeaponLength"		"53.803902"
+					"UVScale"		"1.029000"
+				}
+			}
+			"visuals"
+			{
+				"muzzle_flash_effect_1st_person"		"weapon_muzzle_flash_huntingrifle"
+				"muzzle_flash_effect_3rd_person"		"weapon_muzzle_flash_huntingrifle"
+				"heat_effect"		"weapon_muzzle_smoke"
+				"addon_location"		"primary_sniper"
+				"eject_brass_effect"		"shell_50bmg"
+				"tracer_effect"		"weapon_tracers_rifle"
+				"weapon_type"		"SniperRifle"
+				"player_animation_extension"		"awp"
+				"primary_ammo"		"BULLET_PLAYER_338MAG"
+				"sound_single_shot"		"Weapon_AX-50.Single"
+				"sound_nearlyempty"		"Default.nearlyempty"
+			}
+		}
+	}
+	"items"
+	{
+		"9"
+		{
+			"name"		"weapon_awp"
+			"prefab"		"weapon_awp_prefab"
+			"item_quality"		"legendary"
+			"baseitem"		"1"
+			"default_slot_item"		"1"
+			"item_sub_position"		"rifle4"
+		}
+    }
+}
